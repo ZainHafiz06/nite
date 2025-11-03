@@ -6,7 +6,6 @@ import '../css/Hero.css'
 export default function ()
 {
     const tagline_h1 = useRef(null);
-    const tagline_sub = "an app by Zain Hafiz";
 
     useEffect(() => {
         const typed = new Typed(tagline_h1.current, {
@@ -25,7 +24,7 @@ export default function ()
 
             <div className="tagline">
                 <h1 ref={ tagline_h1 }></h1>
-                <h2 ref={ tagline_sub }></h2>
+                <h2>an app by Zain Hafiz</h2>
             </div>
         </>
     );
