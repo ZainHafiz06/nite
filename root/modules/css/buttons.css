@@ -1,0 +1,45 @@
+@import url(../css/exceptions/ex-buttons.css);
+@import url(../css/global/gl-buttons.css);
+
+button {
+    font-family: 'Source Code Pro', sans-serif;
+
+    transition: 0.75s ease;
+
+    background-color: transparent;
+    
+    cursor: pointer;
+}
+
+.btn-t1 {
+    display: flex;
+
+    padding: var(--btn-t1-pyx);
+
+    border: none;
+    border-radius: var(--btn-t1-br);
+
+    background-color: #FFFFFF;
+}
+
+.btn-t2 {
+    display: flex;
+
+    padding: var(--btn-t2-pyx);
+
+    border: 1px solid #AEAEAE10;
+    border-radius: var(--btn-t2-br);
+
+    background-color: rgba(101, 101, 101, 0.1);
+    backdrop-filter: blur(1rem);
+}
+
+.btn-t3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: var(--btn-t3-pyx);
+
+    border: none;
+}

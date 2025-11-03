@@ -1,0 +1,15 @@
+@import url(../css/global/gl-hero.css);
+
+.hr-fcl-contents > .sc-1 {
+    gap: var(--sc-1-gap);
+}
+
+.hr-fcl-contents > .sc-2 {
+    gap: var(--sc-2-gap);
+}
+
+.hr-socials {
+    justify-content: center;
+
+    height: fit-content !important;
+}

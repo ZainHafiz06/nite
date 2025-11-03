@@ -1,0 +1,9 @@
+@import url(../css/global/gl-container.css);
+
+.s-container:not([class *= "frgnPYX"]) {
+    padding: var(--cont-pyx);
+}
+
+.frgnPYX-1 {
+    padding: 0;
+}

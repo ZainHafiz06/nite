@@ -1,0 +1,14 @@
+.i_c-t1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: fit-content;
+}
+
+.i_c-t1 i {
+    padding: 5px;
+
+    border: 1px solid #AEAEAE10;
+    border-radius: 5px;
+}

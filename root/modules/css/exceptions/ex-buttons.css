@@ -1,0 +1,21 @@
+@import url(../css/global/gl-buttons.css);
+
+button:active {
+    transform: scale(0.9);
+}
+
+.btn-t1:hover {
+    filter: drop-shadow(0 0 0.625rem rgba(238, 238, 238, 0.3));
+}
+
+.btn-t1 h1 {
+    font-weight: 500;
+}
+
+.btn-t2:hover {
+    border: 1px solid #AEAEAE00;
+}
+
+.btn-t2:hover i {
+    color: #FFFFFF;
+}

@@ -1,0 +1,120 @@
+@import url(../css/exceptions/ex-hero.css);
+@import url(../css/global/gl-hero.css);
+
+.hero {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    height: 100dvh;
+    width: 100%; /* #353535 */
+}
+
+.hr-visual {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative;
+
+    padding: 0 20% 0 0;
+
+    height: 100%;
+    width: 100%;
+
+    z-index: 0;
+}
+
+.hr-overlay {
+    padding: 0 var(--std-pyx);
+
+    position: absolute;
+    inset: 0;
+
+    height: 100%;
+    width: 100%;
+
+    pointer-events: none;
+
+    z-index: 1;
+}
+
+.hr-ov-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 100%;
+
+    pointer-events: none;
+}
+
+.hr-ov-content {
+    display: flex;
+
+    height: 100%;
+    width: fit-content;
+
+    pointer-events: auto;
+}
+
+.hr-scl-contents,
+.hr-fcl-contents {
+    display: flex;
+    flex-direction: column;
+
+    width: fit-content;
+}
+
+.hr-scl-contents {
+    justify-content: center;
+
+    height: fit-content;
+
+    gap: var(--hr-scl-conts-gap);
+}
+
+.hr-scl-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: var(--hr-scl-cont-pyx);
+
+    border-radius: var(--hr-scl-cont-br);
+
+    gap: var(--hr-scl-cont-gap);
+}
+
+.hr-fcl-contents {
+    justify-content: space-between;
+
+    padding: var(--hr-fcl-conts-pyx);
+
+    height: 100%;
+}
+
+.hr-fcl-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    width: 100%;
+
+    text-align: end;
+}
+
+.hr-fcl-sec {
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+}
+
+.hr-nav {
+    gap: var(--hr-nav-gap);
+}
