@@ -1,0 +1,35 @@
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tagline h1 {
+    /* animation: 
+        1s fade-in ease-in forwards
+        1s push-up ease forwards
+    ; */
+
+    color: #000000;
+        
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 200px;
+
+    line-height: 95%;
+
+    text-align: center;
+    text-shadow: 5px 5px 0px #ffffff;
+    text-transform: lowercase;    
+
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.tagline h2 {
+    color: #ffffff;
+        
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 80px;
+
+    text-align: center;
+    text-transform: lowercase;
+}
